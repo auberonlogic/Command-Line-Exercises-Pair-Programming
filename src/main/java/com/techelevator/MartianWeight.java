@@ -1,6 +1,9 @@
 package com.techelevator;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e36d7c6e5d0979b29e3f9ae3472bf59795498b20
 import java.util.Scanner;
 
 /*
@@ -19,13 +22,25 @@ Enter a series of Earth weights (space-separated): 98 235 185
  235 lbs. on Earth, is 88 lbs. on Mars.
  185 lbs. on Earth, is 69 lbs. on Mars. 
  */
-public class MartianWeight {
+// public class MartianWeight {
 
-	public static void main(String[] args) {
+//// Wm = We* 0.378
+//		public static void main(String[] args) {
+//			Scanner keyboard = new Scanner(System.in);
+//
+//			System.out.print("Please enter weight:"); // user prompt
+//			String userWeight = keyboard.nextLine();
+//			int userWeightAsInt = Integer.parseInt(userWeight);
+//			int weightOnMars = (int) (userWeightAsInt * 0.378);
+//			System.out.println("Your weight on Earth is:" + " " + userWeightAsInt + "," + "Your weight on Mars is:" + " " + weightOnMars);
+//		}
+//	}
 
+<<<<<<< HEAD
 		Scanner kb = new Scanner(System.in);
 		int input = 
 
 	}
+=======
+>>>>>>> e36d7c6e5d0979b29e3f9ae3472bf59795498b20
 
-}
