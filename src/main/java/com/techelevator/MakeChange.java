@@ -13,6 +13,8 @@ import java.util.Scanner;
  */
 public class MakeChange {
 
+	// written by Evan Swartz
+
 	public static void main(String[] args) {
 	Scanner keyboard = new Scanner((System.in));
 	System.out.print("Please enter total amount of bill:");

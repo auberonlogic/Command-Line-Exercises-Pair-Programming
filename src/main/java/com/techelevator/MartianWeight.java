@@ -23,6 +23,8 @@ public class MartianWeight {
 // Wm = We* 0.378
 		public static void main(String[] args) {
 
+			// written by Ryan Theerman
+
 			// create scanner and prompt user for input
 			Scanner kb = new Scanner(System.in);
 			System.out.print("Please enter a series of weights" +
