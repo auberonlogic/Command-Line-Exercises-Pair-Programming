@@ -22,12 +22,29 @@ public class MartianWeight {
 
 // Wm = We* 0.378
 		public static void main(String[] args) {
-			Scanner keyboard = new Scanner(System.in);
-			System.out.print("Please enter weight:"); // user prompt
-		String userWeight = keyboard.nextLine();
-			int userWeightAsInt = Integer.parseInt(userWeight);
-			int weightOnMars = (int) (userWeightAsInt * 0.378);
-			System.out.println("Your weight on Earth is:" + " " + userWeightAsInt + "," + "Your weight on Mars is:" + " " + weightOnMars);
+
+			// create scanner and prompt user for input
+			Scanner kb = new Scanner(System.in);
+			System.out.print("Please enter a series of weights" +
+					" separated by spaces: ");
+
+			// user enters series of weights
+			String seriesOfWeights = kb.nextLine();
+
+			// convert String inputs to String array and split everything separated by a " "
+			String[] weights = seriesOfWeights.split(" ");
+
+			// for loop iterates through array and calculates the weight on Mars for each index
+			// prints the relative values.
+			for (int i = 0; i < weights.length; i++) {
+				String earthWeightString = weights[i];
+				int earthWeightInt = Integer.parseInt(earthWeightString);
+				double marsWeightDouble = earthWeightInt * 0.378;
+				int marsWeightInt = (int)marsWeightDouble;
+
+				System.out.println(earthWeightInt + " lbs. on Earth, is " + marsWeightInt +
+						" lbs. on Mars");
+			}
 		}
 	}
 
