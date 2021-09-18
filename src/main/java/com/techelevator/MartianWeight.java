@@ -1,9 +1,5 @@
 package com.techelevator;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e36d7c6e5d0979b29e3f9ae3472bf59795498b20
 import java.util.Scanner;
 
 /*
@@ -35,11 +31,4 @@ public class MartianWeight {
 		}
 	}
 
-<<<<<<< HEAD
-		Scanner kb = new Scanner(System.in);
-		int input = 
-
-	}
-=======
->>>>>>> e36d7c6e5d0979b29e3f9ae3472bf59795498b20
 
