@@ -8,12 +8,11 @@ public class MartianWeight {
 
 			// written by Ryan Theerman
 			// this program prompts the user for a series of weights on Earth,
-			// converts them to weights on Mars, and prints the results of the conversion.
+			// converts them to weights on Mars, and prints the inputs and results of the conversions.
 
 			// create scanner and prompt user for input
 			Scanner kb = new Scanner(System.in);
-			System.out.print("Please enter a series of weights" +
-					" separated by spaces: ");
+			System.out.print("Please enter a series of weights separated by spaces: ");
 
 			// user enters series of weights
 			String seriesOfWeights = kb.nextLine();
