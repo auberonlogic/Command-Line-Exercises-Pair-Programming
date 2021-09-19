@@ -40,7 +40,7 @@ public class DB03 {
 //            System.out.print(i + " ");
 //            System.out.print(powers[i] + " ");
 //            System.out.print(decimal + " ");
-            if (decimal >= powers[i]) {
+            if (decimal > powers[i]) {
                 System.out.print(1 + " ");
             } else {
                 System.out.print(0 + " ");
